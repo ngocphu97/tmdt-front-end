@@ -5,6 +5,7 @@
 .btn-primary-custom {
   background: #ff5722;
   border: 1px solid #ff5722;
+  color: #ffffff;
 }
 
 .btn-bigger {
@@ -244,4 +245,26 @@
   font-size: small;
   display: flex;
   color: #ff5722;
+}
+
+/* product detail */
+.product-detail {
+  width: 100%;
+  margin-left: 15px;
+}
+
+.product-detail .list-group .list-group-item label {
+  width: 150px;
+}
+
+.product-describe {
+  padding: 10px;
+  white-space: pre-line;
+  color: #000;
+}
+
+/* relative product */
+.relative-product .row .card:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
