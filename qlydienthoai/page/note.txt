@@ -1,5 +1,11 @@
-thông báo
-
-chia theo ngày
-chưa đọc => màu khác
-đọc rồi =>
+1	IDQuangCao	Int	 Mã quảng cáo
+2	TenDoiTac	Nvarchar(256)	Tên đối tác
+3	LoaiQC	Nvarchar(128)	Loại quảng cáo
+4	GiaThue	Float	Giá thuê QC
+5	NguoiDaiDien	Nvarchar(128)	Người đại diện
+6	Hinh	Varchar(128)	Hình QC
+7	URL	Varchar(256)	Link
+8	NoiDung	Nvarchar(max)	Nội dung QC
+9	NgayBatDau	Date	Ngày bắt đầu QC
+10	NgayKetThuc	Date	Ngày kết thúc QC
+11	TinhTrang	Bit	Tình trạng
